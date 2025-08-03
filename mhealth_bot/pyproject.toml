@@ -1,0 +1,11 @@
+[project]
+name = "mental_health_bot"
+version = "0.1.0"
+description = "Mental Health Support Bot using CrewAI and Gradio"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+crewai = "*"
+crewai-tools = "*"
+gradio = "*"
