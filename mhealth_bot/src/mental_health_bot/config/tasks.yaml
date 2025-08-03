@@ -1,0 +1,21 @@
+analyze_mood_task:
+  description: >
+    Given the user's input, analyze their emotional tone and identify their mood.
+    Your final answer MUST be a single word or short phrase describing the detected mood.
+  expected_output: >
+    A single mood label (e.g., "happy", "sad", "anxious", "calm", etc.)
+
+companion_task:
+  description: >
+    Respond to the user with an empathetic message based on their detected mood.
+    You should offer emotional support, encouragement, and a sense of connection.
+    Your final answer MUST be a short paragraph designed to uplift or validate the user.
+  expected_output: >
+    A warm and empathetic 3-4 sentence message that directly addresses the user's emotional state.
+
+recommend_self_care_task:
+  description: >
+    Based on the detected mood, suggest a specific and practical self-care activity.
+    Your final answer MUST be a clear, actionable recommendation (e.g., "Take a 10-minute walk", "Try journaling", "Listen to calming music").
+  expected_output: >
+    A single, specific self-care recommendation tailored to the user's mood.
